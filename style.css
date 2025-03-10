@@ -1,55 +1,106 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: azure;
-    margin: 0;
 
-}
-.container {
+body {
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-.calc {
-    background-color: skyblue;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+
+}
+
+.social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    /* color: whitesmoke; */
+}
+nav a {
+    margin:0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    /* color: rgb(255, 255, 255); */
+}
+
+.main-section {
+    padding: 50px;
+    background: #f8f9fa;
+}
+
+h1 {
+    text-align: left;
+    color: #a73346;
+}
+.highlight {
+    font-size: 20px;
+    font-weight: bold;
+    color: #a73346;
+    display: flex;
+}
+.intro {
+    display: flex;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.buttons button {
+    background-color:#ffcccd;
+     /*rgb(162, 212, 243); */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;   
+}
+
+.about {
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    background: #fff;
 }
 
-#display {
-    width: 93%;
-    height: 50px;
-    text-align: right;
-    padding: 5px;
-    border: none;
+.abt-text {
+    flex: 1;
+    max-width: 50%; 
+    text-align: left;
+    padding: 20px;
     background: white;
-    border-radius: 5px;
-    margin-bottom: 10px;
+}
+.abt-img img {
+    width: 40%;
 }
 
-.btns {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-}
-
-button {
-    width: 48px;
-    height: 40px;
-    font-size: 1.5em;
+.read-more {
+    background: #ffcccd;
     border: none;
-    background: #60a5fa;
-    color: white;
-    border-radius: 5px;
+    padding: 10px;
     cursor: pointer;
 }
-
-button:hover {
-    background: #2563eb;
+h2{
+    text-align: left;
 }
 
-.zero {
-    grid-column: span 1;
+.services {
+    padding: 30px;
+    background: #f1f1f1;
+
+}
+.service-img {
+    display: flex;
+    gap: 17px;
+}
+
+.service-img img {
+    
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    height: 35vmin;
 }
