@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Commerce</title>
+    <link rel="stylesheet" href="page.css">
+     <script src="https://kit.fontawesome.com/a1abd8f3ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Order</a>
+            <a href="#">Buy Now</a>
+        </nav>
+    </header>
+
+    <section class="main-section">
+        <h1>Quick Commerce</h1>
+        <p class="highlight">At your need - Order Quickly, Get it Quickly!</p>
+        <p class="intro">Experience the fastest and most convenient way to shop for essentials with instant deliveries.</p>
+        <div class="buttons">
+            <button onclick="changeColor(this)">Veggies & Fruits</button>
+            <button onclick="changeColor(this)">Chips & Namkeen</button>
+            <button onclick="changeColor(this)">Oil & Ghee</button>
+            <button onclick="changeColor(this)">Grocery</button>
+            <button onclick="changeColor(this)">Sweets & Chocolates</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="abt-text">
+            <h2>About Us</h2>
+            <p>Quick commerce is revolutionizing the way people shop. With ultra-fast deliveries, a vast range of products, and seamless user experience, we bring the store to your doorstep in minutes.</p>
+            <button class="read-more">Read More</button>
+        </div>
+        <div class="abt-img">
+            <img src="customer.jpg" alt="Happy Customer"> 
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-img">
+            <img src="delivery_person.jpg" alt="Delivery Person">
+            <img src="call_center.jpg" alt="24/7 Support">
+            <img src="grocery.jpg" alt="Wide Range of Products">
+        </div>
+    </section>
+    <script>
+        function changeColor(button) {
+            button.style.backgroundColor = 'grey';
+            button.style.color = 'white';
+        }
+    </script>
+    
+</body>
+</html>
